@@ -162,22 +162,23 @@ body {
   display: flex;
 }
 .form-control {
-  width: 20vh;
+  width: 10vw;
   background-color: whitesmoke;
   border: none;
   outline-style: hidden;
-  font-size: 23px;
+  font-size: px;
   border-radius: 20px;
 }
 /*  */
 .search-box {
   width: 60vw;
-  height: 55px;
+  height: 70vw;
   padding: 5px 8px 0 14px;
   border-radius: 17px;
   border: 1px solid lightgray;
   display: flex;
   align-items: stretch;
+  /* box-shadow: 3px 3px 3px rgb(167, 164, 164); */
 }
 .search-input {
   flex-grow: 1;
@@ -243,16 +244,23 @@ body {
 .item img {
   max-width: 100%;
 }
-
-footer .row {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f2f2f2;
-  padding: 10px 30px;
-  border-bottom: 1px solid #e4e4e4;
+.footers {
+  position: relative;
+  font-size: 12px;
+  height: 12vh;
+  padding-top: 15px;
+  background-color: rgb(245, 245, 245);
+  text-decoration: none;
+  font-weight: 600;
 }
-footer .row a {
-  margin-right: 10px;
+.ig {
+  position: absolute;
+  align-content: center;
+  bottom: 8px;
+}
+.FB {
+  padding-right: 20px;
+  color: #555555;
 }
 
 .search-box {
@@ -266,6 +274,7 @@ footer .row a {
   display: flex;
   align-items: stretch;
 }
+
 @media only screen and (min-width: 400px) {
   .masonry {
     -moz-column-count: 2;
